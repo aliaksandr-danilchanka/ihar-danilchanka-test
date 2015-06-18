@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="global_color_primary">#7fa5e3</color>
+    <color name="global_color_primary_dark">#6684b6</color>
+    <color name="global_color_accent">#ed1c24</color>
+
+    <color name="global_text_primary">#3d3d3d</color>
+    <color name="global_text_secondary">#5e5e5e</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="white_pressed">#ffbbbbbb</color>
+    <color name="frame_dark">#64000000</color>
+    <color name="window_background">@color/white</color>
+
+</resources>

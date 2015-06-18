@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="0"
+        android:dialogTitle="@string/prefs_title_speed_units"
+        android:entries="@array/prefs_entries_speed_units"
+        android:entryValues="@array/prefs_values_speed_units"
+        android:key="speed_units"
+        android:summary="%s"
+        android:title="@string/prefs_title_speed_units" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:dialogTitle="@string/prefs_title_temperature_units"
+        android:entries="@array/prefs_entries_temperature_units"
+        android:entryValues="@array/prefs_values_temperature_units"
+        android:key="temperature_units"
+        android:summary="%s"
+        android:title="@string/prefs_title_temperature_units" />
+
+    <ListPreference
+        android:defaultValue="5"
+        android:dialogTitle="@string/prefs_title_forecast_cnt"
+        android:entries="@array/prefs_entries_forecast_cnt"
+        android:entryValues="@array/prefs_values_forecast_cnt"
+        android:key="forecast_cnt"
+        android:summary="%s"
+        android:title="@string/prefs_title_forecast_cnt" />
+
+</PreferenceScreen>
